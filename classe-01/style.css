@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+.menu {
+  display: flex;
+  background-color: #313131;
+
+  flex-direction: column;
+  align-items: baseline;
+
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  padding: 20px;
+  gap: 40px;
+
+  z-index: 1;
+}
+.configuracao {
+  position: fixed;
+  bottom: 20px;
+}
+.menu span {
+  margin-left: 25px;
+  font-weight: 700;
+}
+.escondido {
+  display: none;
+}
+.visivel {
+  display: flex;
+  padding-right: 43px;
+}
+.menu-aberto {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+aside {
+  padding: 0px 42px 0px 85px;
+}
+aside h1 {
+  text-align: center;
+  margin: 152px 0px 52px;
+  font-size: 36px;
+}
+aside span,
+p {
+  font-size: 20px;
+}
+aside span {
+  color: #5c5c5c;
+}
+.legenda {
+  display: flex;
+  justify-content: space-between;
+}
+.galery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px 30px;
+}
+
+.modal {
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 2;
+}
+.close-modal {
+  position: absolute;
+  top: 90px;
+  right: 45px;
+}
+
+.img {
+  margin: 0px 100px;
+}
+.photo {
+  position: relative;
+}
+.btn-like {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+.img-modal {
+  position: relative;
+}
+.like-modal {
+  position: absolute;
+  top: 18px;
+  right: 118px;
+}
